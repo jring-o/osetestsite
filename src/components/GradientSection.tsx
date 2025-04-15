@@ -141,23 +141,23 @@ const GradientSection: React.FC = () => {
             ref={sectionRef}
             className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 animate-hue-rotate" // Hue rotate applied
             style={{
-                background: `radial-gradient(circle 2000px at var(--mouse-x, 50%) var(--mouse-y, 50%),rgb(115, 78, 204),rgb(120, 22, 129),rgb(214, 140, 13))`, // Your gradient colors/size
+                background: `radial-gradient(circle 2000px at var(--mouse-x, 50%) var(--mouse-y, 50%),rgb(174, 160, 206),rgb(189, 157, 192),rgb(207, 193, 169))`, // Your gradient colors/size
             }}
         >
             {/* Content Area */}
             <div className="relative z-10 text-center max-w-3xl mx-auto">
                 {/* Your Text Content */}
-                <p className="text-xl md:text-2xl leading-relaxed text-white/90 mb-4 font-medium">
-                    The open source movement fuels global economies, educates and empowers billions, and sustains our digital society...
+                <p className="text-xl md:text-xl leading-relaxed text-white/90 mb-4">
+                    The open source movement fuels global economies, educates and empowers billions, and enables our digital society.
                 </p>
-                <p className="text-lg md:text-2xl text-white font-semibold mb-10">
-                    ... but this future is not guaranteed.
+                <p className="text-lg md:text-2xl text-white font-medium mb-10">
+                    Sustaining this invaluable resource is up to us.
                 </p>
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 drop-shadow-md">
                     The Open Source Endowment
                 </h1>
                 <p className="text-lg md:text-xl text-white/80 mb-10">
-                    A community-driven investment in the lasting resilience of the most frictionless, collaborative, and impactful institution the world has ever known.
+                    A community-driven investment in the lasting resilience of the most frictionless, collaborative, and impactful public institution the world has ever known.
                 </p>
 
                 {/* --- Icon/Button Wrapper --- */}
