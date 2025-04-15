@@ -180,7 +180,7 @@ const GradientSection: React.FC = () => {
                         className="text-lg font-medium px-10 py-8 rounded-full bg-white/90 text-black hover:bg-white transition-all shadow-xl hover:scale-105 duration-300"
                     >
                         <Heart className="mr-2 h-6 w-6 text-pink-500" />
-                        Become a Member
+                        Donate
                     </Button>
 
                     {/* Help Icon Link (RIGHT) */}
