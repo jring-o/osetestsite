@@ -141,7 +141,7 @@ const GradientSection: React.FC = () => {
             ref={sectionRef}
             className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 animate-hue-rotate" // Hue rotate applied
             style={{
-                background: `radial-gradient(circle 2000px at var(--mouse-x, 50%) var(--mouse-y, 50%),rgb(174, 160, 206),rgb(189, 157, 192),rgb(207, 193, 169))`, // Your gradient colors/size
+                background: `radial-gradient(circle 1300px at var(--mouse-x, 50%) var(--mouse-y, 50%),rgb(165, 147, 207),rgb(192, 140, 197),rgb(209, 188, 152))`, // Your gradient colors/size
             }}
         >
             {/* Content Area */}
