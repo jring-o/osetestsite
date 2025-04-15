@@ -148,13 +148,13 @@ const GradientSection: React.FC = () => {
             <div className="relative z-10 text-center max-w-3xl mx-auto">
                 {/* Your Text Content */}
                 <p className="text-xl md:text-2xl leading-relaxed text-white/90 mb-4 font-medium">
-                    The open source movement fuels global economies, educates and empowers billions, and sustains our digital society.
+                    The open source movement fuels global economies, educates and empowers billions, and sustains our digital society...
                 </p>
-                <p className="text-lg md:text-3xl text-pink-200 font-semibold mb-8">
-                    But this future is not guaranteed.
+                <p className="text-lg md:text-2xl text-white font-semibold mb-10">
+                    ... but this future is not guaranteed.
                 </p>
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 drop-shadow-md">
-                    Introducing<br />The Open Source Endowment
+                    The Open Source Endowment
                 </h1>
                 <p className="text-lg md:text-xl text-white/80 mb-10">
                     A community-driven investment in the lasting resilience of the most frictionless, collaborative, and impactful institution the world has ever known.
