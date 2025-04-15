@@ -24,7 +24,7 @@ const GradientSection: React.FC = () => {
     const [isMeasured, setIsMeasured] = useState(false);
 
     // --- Physics Configuration (Using your values) ---
-    const stiffness = 0.001;
+    const stiffness = 0.0027;
     const damping = 0.5;
     const mass = 20;
     const precision = 0.01;
