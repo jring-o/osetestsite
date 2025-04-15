@@ -99,3 +99,19 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  @keyframes rotate-hue {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
+  }
+
+  /* Optional: Define a utility class for the animation */
+  .animate-hue-rotate {
+     animation: rotate-hue 10s linear infinite; /* Adjust 10s duration as needed */
+  }
+}
